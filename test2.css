@@ -1,0 +1,31 @@
+.column {
+  float: left;
+  padding: 5px;
+  border: 1px dotted blue;
+  /* Left and right column */
+  /* Middle column */ }
+  .column.side {
+    width: 15%; }
+  .column.middle {
+    width: 80%; }
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%; } }
+.TopPanel {
+  border: 1px solid blue;
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px; }
+  .TopPanel h3 {
+    color: blue;
+    text-decoration: underline; }
+
+.LeftPanel ul {
+  padding-left: 10px;
+  list-style-type: square;
+  list-style-position: outside;
+  list-style-image: none; }
+
+/*# sourceMappingURL=test2.css.map */
